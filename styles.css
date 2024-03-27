@@ -1,0 +1,49 @@
+/* Navbar */
+
+  /* Stopwatch */
+  body {
+    background-color: purple;
+  }
+  
+  .stopwatch {
+    padding-top: 100px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .stopwatch-heading {
+    margin-bottom: 20px;
+    font-size: 5em;
+    color: #fff; /* Changed heading color to white */
+  }
+  
+  .display {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #fff; /* Changed display color to white */
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #ff4081; /* Added background color for buttons */
+    color: #fff; /* Changed button text color to white */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #e91e63; /* Hover background color */
+  }
+  
+  .laps {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .laps li {
+    margin-bottom: 5px;
+  }
+  
